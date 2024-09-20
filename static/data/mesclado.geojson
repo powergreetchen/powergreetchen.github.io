@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "mesclado",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1,"name": "TESTE1", "color": "lightgreen", "border": "blue", "image":"/static/images/image1.jpeg" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -48.946396317245728, -16.382508140542789 ], [ -48.946249605465255, -16.382499142486836 ], [ -48.946232857545105, -16.382667855966915 ], [ -48.946415744833104, -16.382661750148287 ], [ -48.946396317245728, -16.382508140542789 ] ] ] ] } },
+{ "type": "Feature", "properties": { "layer": "MAPA UEG — LAB MEC", "path": "C:/Users/gusta/Documents/Projetos/QGIS/Qgis-UEG/MAPA UEG2/MAPA UEG|layername=LAB MEC" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -48.946057506821177, -16.382438084238984 ], [ -48.94580528314377, -16.382266478324219 ], [ -48.945690727369978, -16.382471826957257 ], [ -48.945734941879159, -16.382586552155701 ], [ -48.945897731662988, -16.382649217151535 ], [ -48.946057506821177, -16.382438084238984 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2,"name": "TESTE2", "color": "black", "border": "brown", "image":"/static/images/image2.jpeg" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -48.946078609200555, -16.382284795816698 ], [ -48.945863565905881, -16.382129579115315 ], [ -48.945829400148781, -16.382211525836425 ], [ -48.946031380065747, -16.382341676440298 ], [ -48.946078609200555, -16.382284795816698 ] ] ] ] } }
+]
+}

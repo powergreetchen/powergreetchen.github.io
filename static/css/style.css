@@ -1,0 +1,217 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map {
+    height: 100%;
+    z-index: 1;
+
+}
+
+.leaflet-popup-content-wrapper {
+   width: 100%;
+}
+.element.style {
+    height: 90vh;
+}
+.custom-popup h4 {
+    text-align: center;
+    margin-bottom: 10px;          /* Espaçamento abaixo do título */
+}
+
+
+.custom-popup p {
+    margin-top: 10px;
+    word-wrap: break-word;         /* Força a quebra de linha para o texto */
+}
+
+.img-fluid.center{
+    width: 300%;
+    
+}
+.text-center p {
+    text-align: justify;
+}
+.row img{
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.custom-image {
+    width: 200px;
+    height: 150px; /* Define a altura fixa */
+    object-fit: cover; /* Ajusta a imagem para preencher o container mantendo a proporção */
+}
+
+.leaflet-control-layers{
+    top: 8vh ;
+}
+
+.leaflet-control-zoom{
+    top: 8vh;
+}
+.logo{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    bottom: 10px; 
+    left: 20px;   
+    z-index: 1000; 
+}
+
+.legend {
+    border: 2px solid #777;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    line-height: 18px;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    position: absolute;
+    bottom: 46.5px;
+    right: 5px;
+    z-index: 1000;
+}
+
+.legend i {
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.bg-cor {
+    background-color: #00226b;
+}
+
+#navbar .container-fluid {
+    display: flex;
+    
+}
+
+#navbar h1 {
+    font-size: 4vw; /* Tamanho ajustável da fonte conforme a tela */
+    color: white;
+    margin: 0;
+}
+
+#navbar{
+    padding-top: 0;
+    height: 8vh;
+}
+
+.leaflet-control-scale-line {
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    max-width: 85px;
+    min-width: 85px;
+}
+
+.leaflet-bottom .leaflet-control-scale {
+    margin-right: 5.5px;
+    right: 0px;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    background-color: #00226b;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    opacity: .9;
+    color: white;
+    border-color: #00226b;
+    text-align: left;
+    z-index: 1;
+    
+}
+
+.header h2{
+
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    height: 18px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+    
+}
+
+.header i {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    opacity: 0.7;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+}
+
+@media (max-width: 768px) {
+    .navbar h1{
+        font-size: 5vw;
+        position: relative;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .logo{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        bottom: 10px; 
+        left: 20px;   
+        z-index: 1000; 
+    }   
+    .header h2{
+        font-size: 1.3em;
+    }
+    .leaflet-control-layers{
+        top: 12vh;
+    }
+    .leaflet-control-zoom{
+        top: 12vh;
+    
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar h1{
+        font-size: 5vw;
+        margin-left: 50px;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .logo{
+        width: 35%;
+        height: auto;
+        position: absolute;
+        bottom: 10px; 
+        left: 20px;   
+        z-index: 1000; 
+    }
+    .header h2{
+        font-size: 1em;
+    }
+    .header {
+        height: 65px;
+    }
+    .leaflet-control-layers{
+        top: 12vh;
+    }
+    .leaflet-control-zoom{
+        top: 12vh;
+    
+    }
+}
